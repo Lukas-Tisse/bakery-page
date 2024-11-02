@@ -1,0 +1,16 @@
+{
+  "name": "bakery-page",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000b\u0000a\u0000k\u0000e\u0000r\u0000y\u0000-\u0000p\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

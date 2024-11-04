@@ -1,4 +1,10 @@
-.global {
-  margin: 0;
+.mainContainer {
   padding: 0;
+  margin: -8px;
+  background-color: #2e1f1e;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

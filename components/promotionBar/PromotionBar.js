@@ -13,7 +13,7 @@ const PromotionBar = () => {
   return (
     isVisible && (
       <div className={`${styles.promoBar} ${isHidden ? styles.hide : ""}`}>
-        <span>
+        <span className={styles.textContainer}>
           10% de desconto na primeira compra!{" "}
           <a href="#produtos">Veja nossos produtos</a>
         </span>

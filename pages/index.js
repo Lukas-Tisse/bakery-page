@@ -1,11 +1,8 @@
+import styles from "./index.module.css";
 import PromotionBar from "../components/promotionBar/PromotionBar.js";
 function home() {
   return (
-    <div
-      style={{
-        marginLeft: "-10px",
-      }}
-    >
+    <div className={styles.mainContainer}>
       <PromotionBar />
     </div>
   );

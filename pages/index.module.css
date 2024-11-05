@@ -1,10 +1,10 @@
 .mainContainer {
   padding: 0;
   margin: -8px;
-  background-color: #2e1f1e;
+  background-color: #1f1f1f;
   height: 100dvh;
   width: 100dvw;
-  display: flex;
-  justify-content: center;
+  display: block;
+  justify-content: top;
   align-items: center;
 }

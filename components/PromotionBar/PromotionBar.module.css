@@ -1,17 +1,16 @@
 .promoBar {
-  background-color: #e5a488;
+  background-color: ##f5f1e9;
   color: #2e1f1e;
   text-align: center;
   padding: 4px;
   font-size: 1rem;
   position: fixed;
   top: 0;
-  height: 5dvh;
+  height: 4.1dvh;
   width: 100dvw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: top 0.8s ease, opacity 0.8s ease;
 }
 .textContainer {
   margin: auto;
@@ -19,19 +18,4 @@
 .promoBar a {
   color: #5f6432;
   text-decoration: underline;
-}
-
-.closeBtn {
-  background: none;
-  border: none;
-  color: black;
-  font-size: 2rem;
-  cursor: pointer;
-  padding: 0 15px;
-  margin-right: 10px;
-}
-
-.hide {
-  top: -50px;
-  opacity: 0;
 }

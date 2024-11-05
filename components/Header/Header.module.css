@@ -1,0 +1,15 @@
+.header {
+  height: 10dvh;
+  width: 100dvw;
+  margin-top: 5.2dvh;
+  display: flex;
+  background-color: #2c2c2a;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.searchButton {
+  background-color: transparent;
+  border-color: transparent;
+  color: #f5f1e9;
+}

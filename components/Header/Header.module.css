@@ -1,7 +1,7 @@
 .header {
   height: 12dvh;
   width: 100dvw;
-  margin-top: 5.2dvh;
+  margin-top: 4.2dvh;
   display: flex;
   background-color: #2c2c2a;
   flex-direction: row;
@@ -19,4 +19,16 @@
   width: 130px;
   height: auto;
   margin-left: 15px;
+}
+.headerLeft {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonsLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 15px;
+  color: #f5f1e9;
 }

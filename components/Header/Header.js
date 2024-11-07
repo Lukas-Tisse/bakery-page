@@ -4,12 +4,20 @@ import imageLogo from "../../public/imageLogo.png";
 function Header() {
   return (
     <div className={styles.header}>
-      <div>
+      <div className={styles.headerLeft}>
         <Image src={imageLogo} className={styles.imageLogo} />
+        <div className={styles.buttonsLeft}>
+          <div className={styles.products}>PRODUCTS</div>
+          <div className={styles.orders}>ORDERS</div>
+          <div className={styles.bakeries}>BAKERIES</div>
+          <div className={styles.about}>ABOUT</div>
+        </div>
       </div>
-      <button className={styles.userButton}>
-        <i class="bi bi-person-circle"></i>
-      </button>
+      <div className={styles.headerRight}>
+        <button className={styles.userButton}>
+          <i class="bi bi-person-circle"></i>
+        </button>
+      </div>
     </div>
   );
 }

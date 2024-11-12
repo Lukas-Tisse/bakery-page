@@ -16,6 +16,11 @@
   margin: auto;
 }
 .promoBar a {
-  color: #5f6432;
+  color: #cd1b1bcc;
   text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .promoBar {
+    font-size: 0.8rem;
+  }
 }
